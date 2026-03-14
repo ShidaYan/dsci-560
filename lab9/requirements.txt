@@ -1,0 +1,25 @@
+# ── Core dependencies ─────────────────────────────────────────
+# Part 2: OpenAI Pipeline
+openai==1.58.1
+langchain==0.3.14
+langchain-openai==0.2.14
+langchain-community==0.3.14
+faiss-cpu==1.8.0
+pymupdf==1.24.3
+tiktoken==0.7.0
+python-dotenv==1.0.1
+
+# Part 4: Web Interface
+flask==2.3.3
+werkzeug==2.3.7
+
+# HTTP / proxy support
+httpx[socks]
+socksio
+
+# Part 3: Open-Source (offline) Pipeline
+sentence-transformers==3.0.0
+transformers==4.41.2
+torch==2.3.0
+ctransformers==0.2.27
+huggingface-hub==0.23.0
